@@ -25,4 +25,14 @@ contract Factory {
         Forwarder forwarder = new Forwarder{salt: salt}(dest);
         return address(forwarder);
     }
+
+    function deployAndForward(address dest, IERC20 erc20)
+        public
+        returns (address)
+    {
+        bytes32 salt = keccak256(abi.encodePacked(dest));
+        Forwarder forwarder = new Forwarder{salt: salt}(dest);
+        forwarder.forward(erc20);
+        return address(forwarder);
+    }
 }
