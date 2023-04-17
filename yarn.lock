@@ -943,10 +943,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openzeppelin/contracts@npm:^4.8.1":
-  version: 4.8.1
-  resolution: "@openzeppelin/contracts@npm:4.8.1"
-  checksum: 99acefde1ae42c2d935ec9b4ebd327e786c499a4ec76b9582eb9adb0ff94a77c48047332fba44fb97b82b5a46d80e74d3e5d8cf73d5defa7f746f2a67f070281
+"@openzeppelin/contracts@npm:^4.8.3":
+  version: 4.8.3
+  resolution: "@openzeppelin/contracts@npm:4.8.3"
+  checksum: aea130d38d46840c5cbe3adbaa9a7ac645e4bd66ad3f3baf2fa78588c408d1a686170b3408c9e2e5e05530fba22ecdc00d7efb6b27852a8b29f91accbc0af255
   languageName: node
   linkType: hard
 
@@ -5402,7 +5402,7 @@ __metadata:
   dependencies:
     "@acala-network/api": ^4.1.8-13
     "@acala-network/bodhi": ^2.5.22
-    "@openzeppelin/contracts": ^4.8.1
+    "@openzeppelin/contracts": ^4.8.3
     "@types/chai": ^4.3.4
     "@types/mocha": ^10.0.1
     chai: ^4.3.7
